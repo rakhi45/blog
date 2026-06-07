@@ -18,7 +18,7 @@ jobs:
           bundler-cache: true
 
       - name: Install Jekyll
-        run: gem install jekyll bundler
+        run: bundle install
 
       - name: Build Jekyll site
         run: jekyll build --trace
